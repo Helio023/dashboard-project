@@ -1,0 +1,12 @@
+.purchase {
+  grid-column: 1 / -1;
+  grid-row: 2 / 4;
+  background-color: var(--white);
+  padding: 2rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

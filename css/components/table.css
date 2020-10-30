@@ -1,0 +1,35 @@
+.table {
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 30em) {
+  .table {
+    overflow-x: scroll;
+  }
+}
+.table1 {
+  grid-row: 4 / -1;
+  grid-column: 1 / 6;
+}
+@media (max-width: 54em) {
+  .table1 {
+    grid-row: 4 / 6;
+    grid-column: 1 / -1;
+  }
+}
+.table2 {
+  grid-row: 4 / -1;
+  grid-column: 6 / -1;
+}
+@media (max-width: 54em) {
+  .table2 {
+    grid-row: 6 / -1;
+    grid-column: 1 / -1;
+  }
+}
